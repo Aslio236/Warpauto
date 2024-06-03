@@ -26,8 +26,8 @@ jobs:
       run: python warp.py
     - name: Commit and push changes
       run: |          
-          git config --global user.email "mansormohammadi427@gmail.com"
-          git config --global user.name "mansor427"
+          git config --global user.email "asiltojamiri@gmail.com"
+          git config --global user.name "aslio236"
           git config credential.helper store
           git add -A
           git commit -m "Automatic update"
